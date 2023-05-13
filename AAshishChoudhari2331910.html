@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="AshishChoudhari2331910.css">
+    <style>
+        #view-history-button { 
+            background-color: #0f495d; /* Green */ 
+            border: none; 
+            color: rgb(208, 14, 47); 
+            padding: 10px 20px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            border-radius: 5px;
+            }
+        #view-history-button:hover { 
+            background-color: #cca80a; 
+            } 
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Weather App</h1>
+    <div class="search">
+        <input type="text" id="search-input" placeholder="Search for a city...">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="location">
+        <button id="location-button">Get current location</button>
+    </div>
+    <button id="view-history-button" onclick="location.href='AshishChoudhari2331910.php'">View History</button>
+    <div id="datetime"></div>
+    <div class="weather">
+        <h2 id="city-name"></h2>
+        <p id="weather-desc"></p>
+        <img id="weather-icon" alt="">
+        <p id="temperature"></p>
+        <p id="feels-like"></p>
+        <p id="humidity"></p>
+        <p id="wind-speed"></p>
+        <p id="visibility"></p>
+        <p id="sunrise-time"></p>
+        <p id="sunset-time"></p>
+        <p id="pressure"></p>
+    </div>
+    </div>
+    <script src="AshishChoudhari2331910.js"></script>
+</body>
+</html> 
